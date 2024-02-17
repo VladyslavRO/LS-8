@@ -7,13 +7,14 @@ body{
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    max-width: 1430px;
 
 }
 .container {
     display: flex;
     justify-content: space-between;
     background: rgb(248, 248, 248);
-    width: 1430px;
+    max-width: 1430px;
     height: 939px;
     left: 0;
     right: 0;
@@ -110,5 +111,102 @@ padding-left: 135px;
   .main {
     display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1430px;
+    padding-bottom: 85px;
 
   }
+  .main h5{
+
+color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 300;
+line-height: 186%;
+letter-spacing: 0%;
+text-align: center;
+  }
+  .main h2{
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 112.5%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 84px ;
+
+  }
+.watch2{
+  width: 417px;
+  height: 630px;
+  background: rgb(248, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 67px;
+}
+h6{
+  color: rgb(0, 0, 0);
+font-size: 32px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+}
+.desc1 {
+  color: rgb(22, 21, 21);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 532px;
+ height: 194px;
+
+
+}
+.watch3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(248, 248, 248);
+  margin-top: 85px;
+  margin-bottom: 67px;
+
+}
+.desc2 {
+margin-top: 17px;
+margin-bottom: 59px;
+color: rgb(22, 21, 21);
+font-size: 32px;
+font-weight: 300;
+line-height: 155%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footer {
+
+
+}
+h5{
+
+  color: rgb(22, 21, 21);
+font-size: 32px;
+font-weight: 400;
+line-height: 186%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 58px;
+}
+.desc3 {
+  color: rgb(22, 21, 21);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 170%;
+  letter-spacing: 0%;
+  text-align: center;
+margin-bottom: 142px;
+}
